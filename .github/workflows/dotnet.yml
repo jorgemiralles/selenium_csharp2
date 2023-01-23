@@ -25,6 +25,6 @@ jobs:
     - name: Build
       run: dotnet build --no-restore      
     - name: Run
-      run: dotnet run
+      run: dotnet run --project D:\a\selenium_csharp2\selenium_csharp2\MVCSelenium
     - name: Test
       run: dotnet test --no-build --verbosity normal
