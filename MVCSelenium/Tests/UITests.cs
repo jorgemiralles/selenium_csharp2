@@ -22,7 +22,7 @@ namespace MVCSelenium.Tests
         [Test]
         public void Test1()
         {
-            driver.Navigate().GoToUrl("http://localhost:9222/");
+            driver.Navigate().GoToUrl("https://localhost:9222/");
             Assert.That(driver.FindElement(By.CssSelector(".display-4")).Text, Is.EqualTo("Welcome"));
             driver.Close();
         }
